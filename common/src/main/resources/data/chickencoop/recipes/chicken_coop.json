@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " F ",
+    "FHF",
+    " S "
+  ],
+  "key": {
+    "F": {
+      "tag": "minecraft:wooden_fences"
+    },
+    "H": {
+      "item": "minecraft:hay_block"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "chickencoop:empty_chicken_coop",
+    "count": 1
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "chickencoop:block/chicken_coop_chicken" }
+  }
+}

@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "GPL-3.0"
+
+[[mods]]
+modId = "chickencoop"
+version = "${version}"
+displayName = "Chicken Coop"
+authors = "Neddslayer"
+description = '''
+Adds a chicken coop, cutting down on entities.
+'''
+logoFile = "icon.png"
+
+[[dependencies.chickencoop]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.chickencoop]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.chickencoop]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"

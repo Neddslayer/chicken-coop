@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "chickencoop:empty_chicken_coop",
+    "chickencoop:chicken_coop"
+  ]
+}

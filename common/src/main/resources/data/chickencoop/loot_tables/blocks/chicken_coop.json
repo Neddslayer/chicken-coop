@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:copy_nbt",
+                  "ops": [
+                    {
+                      "op": "replace",
+                      "source": "Chickens",
+                      "target": "Chickens"
+                    }
+                  ],
+                  "source": "block_entity"
+                }
+              ],
+              "name": "chickencoop:chicken_coop"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "chickencoop:empty_chicken_coop"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/chicken_coop"
+}
